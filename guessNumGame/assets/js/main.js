@@ -28,11 +28,11 @@
    } 
    else if(x > ans)
    {     
-    document.getElementById('lessOrMore').innerHTML = 'Please Guess agian with a smaller number'
+    document.getElementById('lessOrMore').innerHTML = 'Please Guess again with a smaller number'
    } 
    else if(x< ans)
    {
-    document.getElementById('lessOrMore').innerHTML = 'Please Guess agian with a bigger number'
+    document.getElementById('lessOrMore').innerHTML = 'Please Guess again with a bigger number'
    }
    txt += x + ' ';
    document.getElementById('allOfGnum').innerHTML = txt;
